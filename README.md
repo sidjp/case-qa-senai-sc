@@ -2,7 +2,7 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/seu-username/case-qa-senai-sc">
+  <a href="https://github.com/sidjp/case-qa-senai-sc">
     <img src="imagens/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h1>Case QA SENAI/SC</h1>
