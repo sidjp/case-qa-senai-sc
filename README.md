@@ -116,7 +116,7 @@ Siga os passos abaixo.
   ```sh
   npm run dev
   ```
-- **6.  Acesse a aplicação em:**
+**6.  Acesse a aplicação em:**
 
   👉 http://localhost:3000
 <p align="right"><a href="#readme-top">🔝 Voltar ao topo</a></p>
