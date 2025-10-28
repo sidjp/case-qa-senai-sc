@@ -88,7 +88,7 @@ Siga os passos abaixo.
 **1.  Clone o repositório:**
 
   ```sh
-  git clone https://github.com/seu-username/case-qa-senai-sc.git
+  git clone https://github.com/sidjp/case-qa-senai-sc.git
   ```
 **2.  Instale as dependências:**
 
