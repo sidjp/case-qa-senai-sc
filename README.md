@@ -1,13 +1,9 @@
 <a id="readme-top"></a>
-
-<div align="center">
-</div>
-
 <br />
 
 <div align="center">
   <a href="https://github.com/seu-username/case-qa-senai-sc">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="imagens/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h1>Case QA SENAI/SC</h1>
   <p>
@@ -87,34 +83,40 @@ Siga os passos abaixo.
 - **npm**
   ```sh
   npm install npm@latest -g
+  ```
 - **Docker**
   ```sh
   docker --version
-
+  ```
 ### ⚙️ Instalação
 
-- **1.Clone o repositório:**
+**1.Clone o repositório:**
 
   ```sh
   git clone https://github.com/seu-username/case-qa-senai-sc.git
-- **2.Instale as dependências:**
+  ```
+**2.Instale as dependências:**
 
   ```sh
   cd case-qa-senai-sc
   npm install
-- **3.Suba o banco de dados com Docker:**
+  ```
+**3.Suba o banco de dados com Docker:**
 
   ```sh
   docker compose up -d
-- **4.Inicialize o banco e insira dados iniciais:**
+  ```
+**4.Inicialize o banco e insira dados iniciais:**
 
   ```sh
   npm run db:init
   npm run db:seed
-- **5.Inicie o servidor:**
+  ```
+**5.Inicie o servidor:**
 
   ```sh
   npm run dev
+  ```
 - **6.Acesse a aplicação em:**
 
   👉 http://localhost:3000
@@ -147,13 +149,15 @@ A suíte de testes cobre:
 - **Cypress (interativo):**
   ```sh
   npm run test:open
-
+  ```
 - **Cypress (headless, para CI):**
   ```sh
   npm run test:e2e
+  ```
 - **Testes unitários e de integração (Jest):**
   ```sh
   npm test
+  ```
 <p align="right"><a href="#readme-top">🔝 Voltar ao topo</a></p>
 
 ---
