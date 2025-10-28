@@ -25,19 +25,19 @@
 
 ## 📑 Tabela de Conteúdos
 
-1. [Sobre o Projeto](#sobre-o-projeto)
-   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-2. [Como Executar](#como-executar)
-   - [Pré-requisitos](#pré-requisitos)
-   - [Instalação](#instalação)
-3. [Endpoints Principais](#endpoints-principais)
-4. [Testes Automatizados](#testes-automatizados)
-5. [CI/CD (Nível Pleno)](#cicd-nível-pleno)
-6. [Plano de Testes](#plano-de-testes)
-7. [Decisões e Aprendizados](#decisões-e-aprendizados)
-8. [Possíveis Melhorias Futuras](#possíveis-melhorias-futuras)
-9. [Conclusão Pessoal](#conclusão-pessoal)
-10. [Contato](#contato)
+1. [Sobre o Projeto](#-sobre-o-projeto)
+   - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+2. [Como Executar](#-como-executar)
+   - [Pré-requisitos](#-pré-requisitos)
+   - [Instalação](#️-instalação)
+3. [Endpoints Principais](#-endpoints-principais)
+4. [Testes Automatizados](#-testes-automatizados)
+5. [CI/CD](#️-cicd)
+6. [Plano de Testes](#-plano-de-testes)
+7. [Decisões e Aprendizados](#-decisões-e-aprendizados)
+8. [Possíveis Melhorias Futuras](#-possíveis-melhorias-futuras)
+9. [Conclusão Pessoal](#-conclusão-pessoal)
+10. [Contato](#-contato)
 
 ---
 
@@ -83,41 +83,40 @@ Siga os passos abaixo.
 - **npm**
   ```sh
   npm install npm@latest -g
-  ```
 - **Docker**
   ```sh
   docker --version
-  ```
+
 ### ⚙️ Instalação
 
-**1.Clone o repositório:**
+**1.  Clone o repositório:**
 
   ```sh
   git clone https://github.com/seu-username/case-qa-senai-sc.git
   ```
-**2.Instale as dependências:**
+**2.  Instale as dependências:**
 
   ```sh
   cd case-qa-senai-sc
   npm install
   ```
-**3.Suba o banco de dados com Docker:**
+**3.  Suba o banco de dados com Docker:**
 
   ```sh
   docker compose up -d
   ```
-**4.Inicialize o banco e insira dados iniciais:**
+**4.  Inicialize o banco e insira dados iniciais:**
 
   ```sh
   npm run db:init
   npm run db:seed
   ```
-**5.Inicie o servidor:**
+**5.  Inicie o servidor:**
 
   ```sh
   npm run dev
   ```
-- **6.Acesse a aplicação em:**
+- **6.  Acesse a aplicação em:**
 
   👉 http://localhost:3000
 <p align="right"><a href="#readme-top">🔝 Voltar ao topo</a></p>
@@ -149,20 +148,18 @@ A suíte de testes cobre:
 - **Cypress (interativo):**
   ```sh
   npm run test:open
-  ```
+
 - **Cypress (headless, para CI):**
   ```sh
   npm run test:e2e
-  ```
 - **Testes unitários e de integração (Jest):**
   ```sh
   npm test
-  ```
 <p align="right"><a href="#readme-top">🔝 Voltar ao topo</a></p>
 
 ---
 
-## ⚙️ CI/CD (Nível Pleno)
+## ⚙️ CI/CD 
 
 O projeto possui um pipeline no GitHub Actions, executado a cada push na branch principal:
 
