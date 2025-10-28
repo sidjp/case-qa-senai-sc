@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://github.com/sidjp/case-qa-senai-sc">
-     <img src="imagens/logo.png" alt="Logo" width="300">
+     <img src="imagens/logo.png" alt="Logo" width="500">
   </a>
   <h1>Case QA SENAI/SC</h1>
   <p>
