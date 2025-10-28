@@ -13,11 +13,9 @@
   <p>
     Um projeto desenvolvido para o processo seletivo do SENAI/SC!  
     <br/>
-    [Explore os Documentos »](https://github.com/seu-username/case-qa-senai-sc)  
+    [Explore os Documentos »](https://github.com/sidjp/case-qa-senai-sc)  
     <br/><br/>
-    [Ver Demonstração](#) ·
-    [Reportar Bug](https://github.com/seu-username/case-qa-senai-sc/issues/new?labels=bug) ·
-    [Solicitar Feature](https://github.com/seu-username/case-qa-senai-sc/issues/new?labels=enhancement)
+    [Solicitar Feature](https://github.com/sidjp/case-qa-senai-sc/issues/new?labels=enhancement)
   </p>
 </div>
 
