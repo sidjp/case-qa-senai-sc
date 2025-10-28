@@ -14,7 +14,7 @@
     Um projeto desenvolvido para o processo seletivo do SENAI/SC!  
     <br/>
     [Explore os Documentos »](https://github.com/sidjp/case-qa-senai-sc)  
-    <br/><br/>
+    <br/>
     [Solicitar Feature](https://github.com/sidjp/case-qa-senai-sc/issues/new?labels=enhancement)
   </p>
 </div>
@@ -146,13 +146,15 @@ A suíte de testes cobre:
 - **Cypress (interativo):**
   ```sh
   npm run test:open
-
+  ```
 - **Cypress (headless, para CI):**
   ```sh
   npm run test:e2e
+  ```
 - **Testes unitários e de integração (Jest):**
   ```sh
   npm test
+  ```
 <p align="right"><a href="#readme-top">🔝 Voltar ao topo</a></p>
 
 ---
