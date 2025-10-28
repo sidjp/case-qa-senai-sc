@@ -41,8 +41,6 @@
 
 ## 🧩 Sobre o Projeto
 
-![Screenshot do Projeto](images/screenshot.png)
-
 Este projeto foi desenvolvido como parte do estudo de caso técnico do processo seletivo do SENAI/SC.  
 O objetivo foi criar uma aplicação simples, mas completa, para demonstrar habilidades práticas em QA, automação, versionamento e boas práticas de qualidade de software.
 
