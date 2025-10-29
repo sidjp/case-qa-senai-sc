@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>Cadastro de Usuários – Case SENAI/SC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 24px; max-width: 840px; }
+    h1 { margin-bottom: 8px; }
+    form { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+    input, button { padding: 10px; font-size: 16px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { text-align: left; background: #f5f5f5; }
+    .msg { margin-top: 8px; height: 20px; color: #b00020; }
+    .success { color: #0a7f2e; }
+  </style>
+</head>
+<body>
+  <h1>Cadastro de Usuários</h1>
+  <p>Fluxo simples para demonstrar <strong>CRUD</strong> + <strong>validações</strong> + <strong>testes E2E</strong>.</p>
+
+  <form id="user-form">
+    <input id="name" type="text" placeholder="Nome" required />
+    <input id="email" type="email" placeholder="E-mail" required />
+    <button type="submit">Salvar</button>
+  </form>
+  <div id="msg" class="msg"></div>
+
+  <table>
+    <thead>
+      <tr><th>ID</th><th>Nome</th><th>E-mail</th><th>Ações</th></tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <script src="./app.js"></script>
+</body>
+</html>
