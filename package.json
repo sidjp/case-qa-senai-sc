@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docker": "^1.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "name": "case-qa-senai-sc",
+  "version": "1.0.0",
+  "description": "<a id=\"readme-top\"></a>\r <br />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidjp/case-qa-senai-sc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidjp/case-qa-senai-sc/issues"
+  },
+  "homepage": "https://github.com/sidjp/case-qa-senai-sc#readme"
+}
