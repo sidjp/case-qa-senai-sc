@@ -16,7 +16,7 @@
   "db:seed": "node src/db.js seed",
   "test:e2e": "cypress run",
   "test:open": "cypress open"
- }
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sidjp/case-qa-senai-sc.git"
