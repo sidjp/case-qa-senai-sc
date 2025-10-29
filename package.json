@@ -11,8 +11,12 @@
   "description": "<a id=\"readme-top\"></a>\r <br />",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "node src/server.js",
+  "db:init": "node src/db.js init",
+  "db:seed": "node src/db.js seed",
+  "test:e2e": "cypress run",
+  "test:open": "cypress open"
+ }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sidjp/case-qa-senai-sc.git"
