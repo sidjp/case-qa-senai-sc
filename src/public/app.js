@@ -1,9 +1,9 @@
 const API = '/api/users';
-const $tbody = document.getElementById('tbody');
+const $tbody = document.querySelector('[data-cy="table-body"]');
 const $form = document.getElementById('user-form');
-const $name = document.getElementById('name');
-const $email = document.getElementById('email');
-const $msg = document.getElementById('msg');
+const $name = document.querySelector('[data-cy="input-name"]');
+const $email = document.querySelector('[data-cy="input-email"]');
+const $msg = document.querySelector('[data-cy="msg-flash"]');
 
 function flash(text, ok = false) {
   $msg.textContent = text;
@@ -27,7 +27,12 @@ function render(users) {
       <td>${u.id}</td>
       <td>${u.name}</td>
       <td>${u.email}</td>
-      <td><button data-id="${u.id}" class="del">Excluir</button></td>
+      <td><button 
+          data-cy="btn-delete" 
+          data-id="${u.id}" 
+          class="del"
+        >Excluir</button>
+      </td>
     </tr>
   `).join('');
 }
